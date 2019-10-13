@@ -6,18 +6,10 @@ For this assignment, I have chosen three graphs to show visual distribution anal
 ``` r
 counts = table(mtcars$gear, mtcars$cyl)
 
-bar1 = barplot(counts, main = "Car Distribution by Gears and Cylinders", xlab = "Number of Cylinders", ylab = "Frequency", col = c("red","green","blue"), legend = colnames(counts))
+barplot(counts, main = "Car Distribution by Gears and Cylinders", xlab = "Number of Cylinders", ylab = "Frequency", col = c("red","green","blue"), legend = colnames(counts))
 ```
 
-![](VA-Module-7_files/figure-markdown_github/unnamed-chunk-1-1.png)
-
-``` r
-bar1
-```
-
-    ## [1] 0.7 1.9 3.1
-
-The first graph I have chosen is a bar graph depicting the distribution of the cars by number of gears and cylinders. This is a grouped frequency distribution, however due to the nature of the grouping and factoring of the data, it is not possible to determine normality as well as individual terminologies such as the mean, median and mode. Rather, this graph is meant to give a quick general view of the data distribution in the dataset.
+![](VA-Module-7_files/figure-markdown_github/unnamed-chunk-1-1.png) The first graph I have chosen is a bar graph depicting the distribution of the cars by number of gears and cylinders. This is a grouped frequency distribution, however due to the nature of the grouping and factoring of the data, it is not possible to determine normality as well as individual terminologies such as the mean, median and mode. Rather, this graph is meant to give a quick general view of the data distribution in the dataset.
 
 ``` r
 library(sm)
